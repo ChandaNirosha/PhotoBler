@@ -1,0 +1,13 @@
+<svg enable-background="new 0 0 370 370" height="370px"
+    version="1.0" viewBox="0 0 370 370" width="370px" x="0px" xmlns="http://www.w3.org/2000/svg"
+    y="0px" xml:space="preserve">
+
+    <g fill="none"
+        stroke="#ffffff" stroke-miterlimit="10" stroke-width="25" transform="translate(0,370) scale(0.100000,-0.100000)">
+        <path d="M685 2848 c-35 -19 -66 -52 -86 -90 -19 -37 -19 -65 -17 -801 l3
+-764 27 -39 c57 -82 36 -79 546 -82 248 -1 452 -4 452 -6 0 -1 -43 -119 -95
+-261 -53 -142 -93 -260 -91 -263 3 -3 74 60 158 140 84 80 211 199 282 266
+l129 121 461 3 c519 3 497 0 554 82 l27 39 3 764 c3 830 5 789 -52 851 -49 55
+11 52 -1178 52 -787 -1 -1109 -4 -1123 -12z"/>
+    </g>
+</svg>

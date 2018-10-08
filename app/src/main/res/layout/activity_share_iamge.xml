@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F7BE81"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#F7BE81"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/go_back" />
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0"
+            android:background="#F7BE81"
+            android:gravity="center"
+            android:text="Share"
+            android:textColor="#ffffff"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/home_btn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:background="#F7BE81"
+            android:padding="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/home_btn" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_weight="7.0"
+        android:gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="20dp">
+
+        <ImageView
+            android:id="@+id/previewThumb"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:layout_gravity="left|right|center_horizontal|fill_horizontal|center|fill|start|end" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:background="#F7BE81">
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/set_wallpaper_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/set_screen" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="50dp"
+            android:layout_weight="1.0" />
+
+        <Button
+            android:id="@+id/share_btn"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/share"
+            android:paddingLeft="10dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="70dp"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|bottom|left|right|center_vertical|fill_vertical|center_horizontal|fill_horizontal|center|fill|start|end"
+        android:paddingTop="20dp">
+        <!--<com.google.android.gms.ads.NativeExpressAdView
+            android:id="@+id/nativAdView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adSize="280x132"
+            android:adUnitId="@string/nativ_ad_unit_id" />-->
+    </LinearLayout>
+</LinearLayout>
